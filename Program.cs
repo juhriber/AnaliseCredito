@@ -55,7 +55,7 @@ namespace AnaliseCredito
              valorParcela = valor / parcelas;
              valorMaximoParcela = rendaMensal * 0.3m;
 
-             Console.WriteLine($"Sua Quantidade de Parcelas: {valorParcela:C}");
+             Console.WriteLine($"Valor por parcela: {valorParcela:C}");
              Console.WriteLine($"Parcela Maxima: {valorMaximoParcela:C}");
 
              if (valorParcela <= valorMaximoParcela)
